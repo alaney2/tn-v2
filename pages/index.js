@@ -7,18 +7,19 @@ export default function Home() {
   const router = useRouter();
 
   return (
-    <div>
+    <div className="bg-[#282c34] h-screen bg-cover">
       <Head>
         <title>Tactics Ninja</title>
         <meta name="description" content="" />
         <link rel="icon" href="/icon.svg" />
+
       </Head>
+      
       
       <Header />
 
       <main>
         <h1>Welcome to Tactics Ninja!</h1>
-      
       </main>
 
       <footer >

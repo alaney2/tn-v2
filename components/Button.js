@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
 
-function Button( { name, link } ) {
+function Button( { link, className, children } ) {
   const router = useRouter();
 
   const handleClick = (event) => {
@@ -10,7 +10,7 @@ function Button( { name, link } ) {
   }
 
   return <div>
-    <button onClick={handleClick}>{name}</button>
+    <button onClick={handleClick} className={className}> {children} </button>
   </div>
 }
 

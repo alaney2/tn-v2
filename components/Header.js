@@ -3,17 +3,17 @@ import Button from './Button';
 function Header() {
 
   return (
-    <div>
-      <div>
-          <a href="">Tactics Ninja</a>
-        </div>
+    <header className="flex w-full p-5 justify-between text-white">
+      <div className="flex space-x-4 items-center text-2xl italic">
+        <Button link="/" className="italic">Tactics Ninja</Button>
+      </div>
 
-        <div>
-          <Button name="Solve" link="/solve" />
-          <Button name="Analyze" link="/analyze" />
-          <Button name="Changelog" link="/changelog" />
-        </div>
-    </div>
+      <div className="flex space-x-4 items-center text-xl">
+        <Button link="/solve">Solve</Button>
+        <Button name="Analyze" link="/analyze">Analyze</Button>
+        <Button name="Changelog" link="/changelog">Changelog</Button>
+      </div>
+    </header>
   )
 }
 
