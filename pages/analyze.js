@@ -1,6 +1,9 @@
+import Header from '../components/Header';
+
 function Analyze() {
-  return <div>
-      
+  return <div className="bg-custom text-alice-blue">
+    <Header />
+
   </div>;
 }
 

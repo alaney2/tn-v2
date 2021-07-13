@@ -3,9 +3,16 @@
 @tailwind utilities;
 
 
-@layer base {
+/* @layer base {
   @font-face {
     font-family: 'Rubik';
     src: local('Rubik') url(../fonts/Rubik/Rubik-VariableFont_wght.ttf) format('ttf');
+  }
+} */
+
+@layer utilities {
+  .bg-custom {
+    background-color: #282c34;
+    height: 100vh;
   }
 }

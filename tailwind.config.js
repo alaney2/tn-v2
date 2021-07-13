@@ -10,7 +10,11 @@ module.exports = {
   ],
   darkMode: true, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'alice-blue': '#eef8ff',
+      },
+    },
     fontFamily: {
       'sans': ['Rubik', ...defaultTheme.fontFamily.sans],
     },
